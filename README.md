@@ -12,3 +12,27 @@
 
 # Comandos
 
+Deseja criar uma variável? Utilize o comando "set" Exemplo:
+```markdown
+set mes=2
+```
+Note que "mes" "=" e "2" estão juntos, isso é uma regra da linguagem do CMD
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Deseja executar seu comando com alguma condição? Utilize o comando "if" Exemplo:
+
+```markdown
+if mes=2 (
+
+)
+```
+O seu comando deve ser escrito entre os parenteses que se encontram afrente do comando if
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Deseja repetir algum comando com um numero de repetições especificos? Utilize o comando "for" Exemplo:
+
+```markdown
+for
+```
