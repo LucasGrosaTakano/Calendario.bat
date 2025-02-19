@@ -20,10 +20,10 @@ Acima é possivel ver 4 variáveis que utilizam do valor de entrada do ano para 
 
 ![](https://media.discordapp.net/attachments/850755386549338122/1341856753230417951/image.png?ex=67b784fc&is=67b6337c&hm=4c5aad2242ab5e33a0da66b10e6bc914492d508124dc4ae96180cfb7c03e0226&=&format=webp&quality=lossless)
 
-Acima podemos observar o metodo que foi desenvolvido para identificar os anos bissextos, a lógica é a seguinte: se o mês for de fevereiro, ele verifica o valor resultante da divisão daquele ano por 4, se o resultado for 0 ele segue mais um passo para a verificação, se a divisão do ano por 100 **não** for igual a zero significa que é um ano bissexto, e o programa irá aumentar 1 dia em fevereiro. Mas, se a variável seculo for igual a 0, o codigo verifica se o ano é divisível por 400, se sim, o programa definirá a quantidade de dias para 29, caso contrário, o outro pedaço do codigo fará com que o valor de dias seja 28 por não ser um ano bissexto. Resumidamente, esse conjunto de codigo é um filtrador de ano bissextos baseados nas regras dessa definição:
-- Se for divisível por 4 e não por 100, é bissexto.
-- Se for divisível por 4, 100 e 400, também é bissexto.
-- Se for divisível por 4 e 100, mas não por 400, não é bissexto.
+#### Acima podemos observar o metodo que foi desenvolvido para identificar os anos bissextos, a lógica é a seguinte: se o mês for de fevereiro, ele verifica o valor resultante da divisão daquele ano por 4, se o resultado for 0 ele segue mais um passo para a verificação, se a divisão do ano por 100 **não** for igual a zero significa que é um ano bissexto, e o programa irá aumentar 1 dia em fevereiro. Mas, se a variável seculo for igual a 0, o codigo verifica se o ano é divisível por 400, se sim, o programa definirá a quantidade de dias para 29, caso contrário, o outro pedaço do codigo fará com que o valor de dias seja 28 por não ser um ano bissexto. Resumidamente, esse conjunto de codigo é um filtrador de ano bissextos baseados nas regras dessa definição:
+#### - Se for divisível por 4 e não por 100, é bissexto.
+#### - Se for divisível por 4, 100 e 400, também é bissexto.
+#### - Se for divisível por 4 e 100, mas não por 400, não é bissexto.
 
 
 
