@@ -25,6 +25,8 @@ Acima podemos observar o metodo que foi desenvolvido para identificar os anos bi
 - Se for divisível por 4, 100 e 400, também é bissexto.
 - Se for divisível por 4 e 100, mas não por 400, não é bissexto.
 
+
+
 # Desafios e solução
  #### Ao criar esse script, minha principal dificuldade foi criar o método que conseguia identificar se o ano proposto era bissexto ou não. Porém, graças à ajuda do professor Anderson que disponibilizou informações sobre como produzir esse tipo de sistema, eu fui capaz de concluir a tarefa
 
